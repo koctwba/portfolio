@@ -25,7 +25,12 @@ body{ font-size:16px;
       font-family: 'Montserrat', sans-serif;
       /*background-color: rgb(214, 198, 194);*/
       /*background-color: #000EBA;*/
-      background-color: #ffce00;
+      /*background-color: #ffce00;*/
+      /*background-color: #EBE4DE;*/
+      /*background-color: #f1f1f1;*/
+      /*background-color: #f4f3ef;*/
+     /*background-color: #f7f1e5;*/
+       background-color: #fffceb;
       cursor: url(../images/object_2.cur),auto;}
 ul, ol, li{list-style-type:none}
 img, fieldset{border:none;vertical-align: middle;}/*vertical-align 은 img, fieldset 에만 먹힘 p에는 안먹힘*/
@@ -50,7 +55,7 @@ button{outline:0}
       }
 #header a{
       font-size: 1rem;
-      color: #fff;
+      color: #4566f5;
       margin-right: 3rem;
       font-weight: 300;
 }
