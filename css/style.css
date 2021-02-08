@@ -33,7 +33,7 @@ button{
   width: 100%; height: 170px;
   position: absolute;top:220px;left: 0px;
   z-index: 8;
-  background-color:transparent);
+  background-color:transparent;
   overflow: hidden;
 }
 #sec1 .letter_one{
@@ -51,7 +51,7 @@ button{
   width: 100%; height: 170px;
   position: absolute;top:400px;left: 0px;
   z-index: 4;
-  background-color:tran;
+  background-color:transparent;
   overflow: hidden;
 }
 #sec1 .letter_two{
@@ -86,7 +86,6 @@ button{
   width: 100%; height: 800px;
   position: absolute;top:200px;right: 1rem;
   background-color:#ffce00;
-  border: 1px solid green;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -94,10 +93,11 @@ button{
   width: 60%;
   position: absolute;top:900px;right: 1rem;
   transform: rotate(-60deg);
-  border: 1px solid blue;
-  z-index: 9;
-  opacity: 0.5;
-  filter: invert(0%) sepia(4%) saturate(7500%) hue-rotate(167deg) brightness(99%) contrast(108%);
+  z-index: 6;
+  opacity: 0.9;
+  filter: invert(26%) sepia(94%) saturate(3568%) hue-rotate(6deg) brightness(92%) contrast(101%);
+
+
 }
 /*#sec1 .letter_three{
   font-size: 9rem; color: #888;
@@ -420,7 +420,6 @@ button{
 /********************* sec5 ****************************/
 #sec5{
   width: 100%;
-  border: 1px solid red;
   margin-top: 7rem;
   position: relative;
 }
@@ -454,13 +453,19 @@ button{
   position: absolute;bottom: 1rem;right: 1rem;
 }
 #sec5 .sec5_top button{
-  border: 1px solid yellow;
+  border: 1px solid #E03400;
   border-radius: 50%;
   padding: 30px 37px;
   background: none
 }
+#sec5 .sec5_top button:hover{
+  border-color: #fff;
+}
+#sec5 .sec5_top button:hover p{
+  color: #E03400;
+}
 #sec5 .sec5_top p{
-  font-size: 2.5rem; color: red;
+  font-size: 2.5rem; color: #fff;
 }
 /********************* sec6 ****************************/
 /********************* sec7 ****************************/
