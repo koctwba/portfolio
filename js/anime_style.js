@@ -40,10 +40,10 @@ $(function(){
 			
 			});//scroll() 끝
 
-    $('#sec1 .letter_one').animate({top:31},1500);
+    $('#sec1 .letter_one').animate({top:-1},1500);
     //$('#sec1 .letter').slideDown();              
     $('#sec1 .sec1_box_three img').delay(1000).animate({top:1},1500);
-    $('#sec1 .letter_two').delay(1500).animate({top:30},1500);
+    $('#sec1 .letter_two').delay(1500).animate({top:-1},1500);
     $('#sec1 .sec1_box_four img').delay(1900).animate({top:110},1500);
 
     $('.sec2_btn_box').each(function(){

@@ -29,8 +29,8 @@ body{ font-size:16px;
       /*background-color: #EBE4DE;*/
       /*background-color: #f1f1f1;*/
       /*background-color: #f4f3ef;*/
-     /*background-color: #f7f1e5;*/
-       background-color: #fffceb;
+      /*background-color: #f7f1e5;*/
+      background-color: #fffceb;
       cursor: url(../images/object_2.cur),auto;}
 ul, ol, li{list-style-type:none}
 img, fieldset{border:none;vertical-align: middle;}/*vertical-align 은 img, fieldset 에만 먹힘 p에는 안먹힘*/
@@ -67,7 +67,7 @@ button{outline:0}
 }
 #header a:hover{
       color: #E03400;
-      border-bottom: 1px solid #E03400;}
+      border-bottom: 1px solid #4566f5;}
 /************** header **************/
 /************** header **************/
 /************** header **************/

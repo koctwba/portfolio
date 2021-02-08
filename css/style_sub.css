@@ -4,7 +4,7 @@ body{ font-size:16px;
       font-family: 'Montserrat', sans-serif;
       /*background-color: rgb(214, 198, 194);*/
       /*background-color: #000EBA;*/
-      background: linear-gradient(-115deg,#EBE4DE,92%,#ffce00);
+      background: linear-gradient(-115deg,#fffceb,92%,#ffce00);
       cursor: url(../images/object_2.cur),auto;}
 ul, ol, li{list-style-type:none}
 img, fieldset{border:none;vertical-align: middle;}/*vertical-align 은 img, fieldset 에만 먹힘 p에는 안먹힘*/

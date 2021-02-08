@@ -37,9 +37,9 @@ button{
   overflow: hidden;
 }
 #sec1 .letter_one{
-  font-size: 9rem; color: #f63c30;
+  font-size: 10rem; color: #f63c30;
   font-weight: 300;
-  position: absolute;top:600px;right: 0px;
+  position: absolute;top:600px;left: 6rem;
   z-index: 9;
   /*background-image: url(../images/background_7.png);
   -webkit-text-fill-color: transparent;
@@ -55,9 +55,9 @@ button{
   overflow: hidden;
 }
 #sec1 .letter_two{
-  font-size: 9rem; color: #f63c30;
+  font-size: 10rem; color: #f63c30;
   font-weight: 300;
-  position: absolute;top:600px;right: 0px;
+  position: absolute;top:600px;right: 4rem;
   z-index: 5;
   /*background-image: url(../images/background_5.jpg);
   -webkit-text-fill-color: transparent;
@@ -67,6 +67,9 @@ button{
   font-size: 170px;
   font-family: 'Bungee', cursive;
   animation: filling 3s ease forwards;*/
+}
+#sec1 .sec1_box_two .blue{
+  color: cornflowerblue;
 }
 #sec1 .sec1_box_three{
   width: 100%; height: 800px;
@@ -80,7 +83,7 @@ button{
   position: absolute;top:800px;left: 1rem;
   z-index: 7;
   opacity: 0.85;
-  filter: invert(56%) sepia(50%) saturate(7376%) hue-rotate(212deg) brightness(89%) contrast(94%);
+  filter: invert(37%) sepia(36%) saturate(6056%) hue-rotate(220deg) brightness(98%) contrast(97%);
 }
 #sec1 .sec1_box_four{
   width: 100%; height: 800px;
@@ -95,7 +98,7 @@ button{
   transform: rotate(-60deg);
   z-index: 6;
   opacity: 0.9;
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(162deg) brightness(104%) contrast(103%);
+  filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(335deg) brightness(107%) contrast(100%);
 
 }
 /*#sec1 .letter_three{
@@ -182,6 +185,7 @@ button{
   font-weight: 100;
   display: block;
   margin-bottom: 1rem;
+  transition: 0.5;
 }
 #sec3 .sec3_btn:hover{
   color: #f63c30;
@@ -376,6 +380,7 @@ button{
   font-weight: 100;
   display: block;
   margin-bottom: 1rem;
+  transition: 0.5;
 }
 #sec4 .sec4_btn:hover{
   color: #f63c30;
@@ -444,6 +449,7 @@ button{
   font-size:1.5rem; color: #4566f5;
   font-weight: 100;
   line-height: 2.5rem;
+  transition: 0.5;
 }
 #sec5 .sec5_left p:hover{
   color: #f63c30;
@@ -455,7 +461,7 @@ button{
   border: 1px solid #f63c30;
   border-radius: 50%;
   padding: 30px 37px;
-  background: none
+  background: none;
 }
 #sec5 .sec5_top button:hover{
   border-color: #4566f5;
