@@ -37,7 +37,8 @@ button{
   overflow: hidden;
 }
 #sec1 .letter_one{
-  font-size: 10rem; color: #f63c30;
+  font-size: 10rem; /*color: #f63c30;*/
+  color: #e74337;
   font-weight: 300;
   position: absolute;top:600px;left: 6rem;
   z-index: 9;
@@ -55,7 +56,8 @@ button{
   overflow: hidden;
 }
 #sec1 .letter_two{
-  font-size: 10rem; color: #f63c30;
+  font-size: 10rem; /*color: #f63c30;*/
+  color: #e74337;
   font-weight: 300;
   position: absolute;top:600px;right: 4rem;
   z-index: 5;
@@ -69,7 +71,7 @@ button{
   animation: filling 3s ease forwards;*/
 }
 #sec1 .sec1_box_two .blue{
-  color: cornflowerblue;
+  color: #1b7fe2;
 }
 #sec1 .sec1_box_three{
   width: 100%; height: 800px;
@@ -83,7 +85,7 @@ button{
   position: absolute;top:800px;left: 1rem;
   z-index: 7;
   opacity: 0.85;
-  filter: invert(37%) sepia(36%) saturate(6056%) hue-rotate(220deg) brightness(98%) contrast(97%);
+  filter: invert(73%) sepia(55%) saturate(330%) hue-rotate(182deg) brightness(95%) contrast(91%);
 }
 #sec1 .sec1_box_four{
   width: 100%; height: 800px;
@@ -113,13 +115,14 @@ button{
 }
 #sec2::after{content: '';display: block;clear: both;}
 #sec2 .sec2_btn{
-  font-size: 3rem; color: #4566f5;
+  font-size: 3rem; /*color: #4566f5;*/
+  color: #1b7fe2;
   font-weight: 100;
   display: block;
   margin-bottom: 1rem;
 }
 #sec2 .sec2_btn:hover{
-  color: #f63c30;
+  color: #e74337;
 }
 #sec2 .sec2_star{
   width: 100%; height: 500px;
@@ -181,14 +184,15 @@ button{
 #sec3{width: 100%;}
 #sec3::after{content: '';display: block;clear: both;}
 #sec3 .sec3_btn{
-  font-size: 3rem; color: #4566f5;
+  font-size: 3rem; /*color: #4566f5;*/
+  color: #1b7fe2;
   font-weight: 100;
   display: block;
   margin-bottom: 1rem;
   transition: 0.5;
 }
 #sec3 .sec3_btn:hover{
-  color: #f63c30;
+  color: #e74337;
 }
 #sec3 .sec3_logo{
   margin: 0 auto;
@@ -376,14 +380,15 @@ button{
 }
 /********************* sec4 ****************************/
 #sec4 .sec4_btn{
-  font-size: 3rem; color: #4566f5;
+  font-size: 3rem; /*color: #4566f5;*/
+  color: #1b7fe2;
   font-weight: 100;
   display: block;
   margin-bottom: 1rem;
   transition: 0.5;
 }
 #sec4 .sec4_btn:hover{
-  color: #f63c30;
+  color: #e74337;
 }
 #sec4 .sec4_artek_box{
   width: 100%;
@@ -437,7 +442,7 @@ button{
 #sec5 h3{
   padding: 10rem 0;
   padding-left: 4rem;
-  border-left: 2px solid #4566f5;
+  border-left: 2px solid /*#4566f5;*/ #1b7fe2;
 }
 #sec5 .sec5_left{
   float: left;
@@ -446,31 +451,34 @@ button{
   margin-left: 5rem;
 }
 #sec5 .sec5_left p{
-  font-size:1.5rem; color: #4566f5;
+  font-size:1.5rem; /*color: #4566f5;*/
+  color: #1b7fe2;
   font-weight: 100;
   line-height: 2.5rem;
   transition: 0.5;
 }
 #sec5 .sec5_left p:hover{
-  color: #f63c30;
+  /*color: #f63c30;*/
+  color: #e74337;
 }
 #sec5 .sec5_top{
   position: absolute;bottom: 1rem;right: 1rem;
 }
 #sec5 .sec5_top button{
-  border: 1px solid #f63c30;
+  border: 1px solid #9ac2e6;
   border-radius: 50%;
   padding: 30px 37px;
   background: none;
 }
 #sec5 .sec5_top button:hover{
-  border-color: #4566f5;
+  border-color: #1b7fe2;
 }
 #sec5 .sec5_top button:hover p{
-  color: #f63c30;
+  color: #e74337;
 }
 #sec5 .sec5_top p{
-  font-size: 2.5rem; color: #4566f5;
+  font-size: 2.5rem; /*color: #4566f5;*/
+  color: #1b7fe2;
 }
 /********************* sec6 ****************************/
 /********************* sec7 ****************************/
