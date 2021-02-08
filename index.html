@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+
+<title>yeohyun kang portfolio</title>
+  <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+   <![endif]-->
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  @keyframes filling {
+  from{
+    background-position: center 25%;
+  }
+  to {
+    background-position: center 50%;
+  }
+}
+</style>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/anime_style.js"></script>
+<script>
+  $(document).ready(function() {
+    var wd = $(window);
+    $('.paral').each(function(){
+      var bg = $(this);
+      wd.scroll(function(){
+        var yPos = -(wd.scrollTop() / 2); 
+          //나눠지는 숫자가 작을 수록 속도가 빠름
+        var coords = '50%' + yPos + 'px';
+        bg.css({backgroundPosition:coords});
+      });
+    });
+  });
+</script> 
+</head>
+
+<body >
+<div id="wrap">
+  <header id="header">
+    <div class="header_box">
+      <a href="#sec5">Contact</a>
+      <a href="#sec2">Work</a>
+      <a href="#">CV</a>
+    </div>
+  </header>
+  <section id="sec1">
+    <div class="sec1_box_one">
+     <h1>
+      <span class="letter_one">YEOHYUN KANG</span>
+     </h1>
+    </div>
+    <div class="sec1_box_three">
+      <img src="images/object_1.svg">
+     </div>
+     <div class="sec1_box_four">
+      <img src="images/object_3.svg">
+     </div>
+    <div class="sec1_box_two">
+      <h1>
+       <span class="letter_two">PORTFOLIO</span>
+      </h1>
+     </div>
+  </section>
+  <section id="sec2">
+    <div class="inner">
+      <h2>
+        <span>Web</span>
+      </h2>
+      <div class="sec2_btn_box">
+      <a href="#" class="sec2_btn">Star skincare</a>
+      <div class="sec2_star show">
+        <div class="sec2_star_box">
+          <a href="https://koctwba.github.io/proj1/">
+          <div class="sec2_star_img paral"></div></a>
+          <!--<p>모던하고 심플한 분위기를 주기 위해 주조컬러를 베이지로 선정하여
+             디자인. 포인트가 되는 로고나 팝업배너의 경우 명도가 높은 컬러를 사용함.
+          </p>-->
+        </div>
+      </div>
+    </div>
+    <div class="sec2_btn_box">
+      <a href="#" class="sec2_btn">Artek</a>
+      <div class="sec2_artek show">
+        <div class="sec2_artek_box">
+          <a href="https://koctwba.github.io/proj2/">
+            <div class="sec2_artek_img paral"></div></a>
+          <!--<p>모던하고 심플한 분위기를 주기 위해 주조컬러를 베이지로 선정하여
+             디자인. 포인트가 되는 로고나 팝업배너의 경우 명도가 높은 컬러를 사용함.
+          </p>-->
+        </div>
+      </div>
+    </div>
+    <div class="sec2_btn_box">
+        <a href="#" class="sec2_btn">Letterbox</a>
+        <div class="sec2_letter show">
+          <div class="sec2_letter_box">
+            <a href="https://koctwba.github.io/proj3/">
+              <div class="sec2_letter_img paral"></div></a>
+            <!--<p>모던하고 심플한 분위기를 주기 위해 주조컬러를 베이지로 선정하여
+               디자인. 포인트가 되는 로고나 팝업배너의 경우 명도가 높은 컬러를 사용함.
+            </p>-->
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="sec3">
+    <div class="inner">
+      <h2>
+        <span>Graphic</span>
+      </h2>
+      <div class="sec3_btn_box">
+      <a href="#" class="sec3_btn">Logo</a>
+      <div class="sec3_logo show">
+        <div class="sec3_logo_box">
+          <div>
+            <img src="images/logo_artek.png" alt="프로젝트2 아르텍 로고">
+            <p>Artek</p>
+          </div>
+          <div class="sec3_logo_two">
+            <img src="images/logo_letter_r.png" alt="프로젝트3 레터박스 로고">
+            <img src="images/logo_letter_b.png" alt="프로젝트3 레터박스 로고">
+            <p>Letterbox</p>
+          </div>
+          <div>
+            <img src="images/logo_star.png" alt="프로젝트1 스타피부과 로고">
+            <p>Star skincare</p>
+          </div>
+          <!--<p>모던하고 심플한 분위기를 주기 위해 주조컬러를 베이지로 선정하여
+             디자인. 포인트가 되는 로고나 팝업배너의 경우 명도가 높은 컬러를 사용함.
+          </p>-->
+        </div>
+    </div>
+  </div>
+    <div class="sec3_btn_box">
+      <a href="#" class="sec3_btn">Banner</a>
+      <div class="sec3_banner_box show">
+        <div class="sec3_star">
+          <div>
+            <img src="images/banner_1.jpg" alt="스타피부과 팝업 배너 이미지">
+          </div>
+          <div>
+            <img src="images/banner_2.jpg" alt="스타피부과 메인 슬라이더 배너 이미지">
+          </div>
+          <div>
+            <div class="sec3_exp_l">
+              <p>Star skincare</p>
+            </div>
+            <div class="sec3_exp_r">
+              <p>스타피부과 배너 이미지</p>
+            </div>
+            <div class="sec3_exp">
+              <p>깔끔한 인상을 주기 위해 전체 홈페이지 주조컬러를 베이지로 선정하여 디자인하였으며<br>
+                 포인트가 되는 로고나 팝업배너의 경우 명도가 높은 컬러를 사용함.</p>
+            </div>
+          </div>
+        </div>
+        <div class="sec3_artek">
+          <div>
+            <a href="https://koctwba.github.io/proj2/"><img src="images/banner_3.jpg" alt="아르텍 빌보드 이미지"></a>
+          </div>
+          <div>
+            <a href="https://koctwba.github.io/proj2/"><img src="images/banner_4.jpg" alt="아르텍 빌보드 이미지"></a>
+          </div>
+          <div>
+            <a href="https://koctwba.github.io/proj2/"><img src="images/banner_5.jpg" alt="아르텍 빌보드 이미지"></a>
+          </div>
+          <div>
+            <div class="sec3_exp_l">
+              <p>Artek</p>
+            </div>
+            <div class="sec3_exp_r">
+              <p>아르텍 배너 이미지</p>
+            </div>
+            <div class="sec3_exp">
+              <p>아르텍의 간결하면서도 부드러운 가구 디자인을 표현할 수 있도록<br>
+                 최소한의 도형을 활용하여 심플한 느낌을 살려 디자인함. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="sec3_btn_box">
+    <a href="#" class="sec3_btn">Goods</a>
+    <div class="sec3_goods_box show">
+      <div class="sec3_goods_card">
+        <div>
+          <img src="images/goods_1.png" alt="아르텍 명함 디자인">
+          <img src="images/goods_2.jpg" alt="아르텍 명함 디자인">
+        </div>
+        <div class="sec3_exp_tit">
+            <div class="sec3_exp_l">
+              <p>Business card</p>
+            </div>
+            <div class="sec3_exp_r">
+              <p>아르텍 명함 디자인</p>
+            </div>
+            <div class="sec3_exp">
+            </div>
+        </div>
+      </div>
+      <div class="sec3_goods_leaf">
+        <div>
+          <img src="images/goods_3.jpg" alt="아르텍 리플렛 디자인">
+          <img src="images/goods_4.jpg" alt="아르텍 리플렛 디자인">
+        </div>
+        <div class="sec3_goods_leat_bottom">
+          <img src="images/goods_5.jpg" alt="아르텍 리플렛 디자인">
+          <img src="images/goods_6.jpg" alt="아르텍 리플렛 디자인">
+        </div>
+        <div class="sec3_exp_tit">
+          <div class="sec3_exp_l">
+            <p>Booklet</p>
+          </div>
+          <div class="sec3_exp_r">
+            <p>아르텍 부클릿 디자인</p>
+          </div>
+          <div class="sec3_exp">
+          </div>
+        </div>
+      </div>
+      <div class="sec3_goods_flag">
+        <div>
+          <img src="images/goods_7.jpg" alt="아르텍 플래그 디자인">
+          <img src="images/goods_8.jpg" alt="아르텍 플래그 디자인">
+        </div>
+        <div class="sec3_exp_tit">
+          <div class="sec3_exp_l">
+            <p>Flag</p>
+          </div>
+          <div class="sec3_exp_r">
+            <p>아르텍 플래그 디자인</p>
+          </div>
+          <div class="sec3_exp">
+          </div>
+        </div>
+      </div>
+      <div class="sec3_goods_note">
+        <div>
+          <img src="images/goods_9.jpg" alt="아르텍 노트 디자인">
+          <img src="images/goods_10.jpg" alt="아르텍 노트 디자인">
+        </div>
+        <div class="sec3_exp_tit">
+          <div class="sec3_exp_l">
+            <p>Note</p>
+          </div>
+          <div class="sec3_exp_r">
+            <p>아르텍 노트 디자인</p>
+          </div>
+          <div class="sec3_exp">
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  <div class="sec3_btn_box">
+    <a href="#" class="sec3_btn">Film poster and pictures</a>
+    <div class="sec3_film_box show">
+      <div class="sec3_film_one">
+        <a href="https://koctwba.github.io/proj3/"><img src="images/film_1.jpg" alt="아이다호 포스터 리디자인"></a>
+        <div class="sec3_exp_tit">
+          <div class="sec3_exp_l">
+            <p>My own private Idaho</p>
+          </div>
+          <div class="sec3_exp_r">
+            <p>아이다호 포스터 리디자인</p>
+          </div>
+        </div>
+        <div class="sec3_exp">
+          <p>영화의 빈티지한 영상미를 표현하기 위해<br>
+             채도가 낮은 컬러를 중심적으로 활용하여 디자인함.</p>
+        </div>
+      </div>
+      <div class="sec3_film_two">
+        <img src="images/film_2-1.jpg" alt="포토샵을 이용한 합성 사진 원본">
+        <img src="images/film_2-2.jpg" alt="포토샵을 이용한 합성 사진 완성본">
+        <div class="sec3_exp_tit">
+          <div class="sec3_exp_l">
+            <p>Photoshop</p>
+          </div>
+          <div class="sec3_exp_r">
+            <p>포토샵을 활용한 합성사진</p>
+          </div>
+        </div>
+        <div class="sec3_exp">
+          <p>각각의 사진들에서 배경으로 활용할 수 있는 요소를 가져와<br>
+             전체적인 컬러 톤을 수정한 후 다른 개체와 잘 조화되도록 그림자와 마스크를 사용하여 합성함.
+          </p>
+        </div>
+      </div>
+      <div class="sec3_film_three">
+        <img src="images/film_3-1.jpg" alt="포토샵을 이용한 합성 사진 원본">
+        <img src="images/film_3-2.jpg" alt="포토샵을 이용한 합성 사진 완성본">
+        <div class="sec3_exp_tit">
+          <div class="sec3_exp_l">
+            <p>Photoshop</p>
+          </div>
+          <div class="sec3_exp_r">
+            <p>포토샵을 활용한 합성사진</p>
+          </div>
+        </div>
+        <div class="sec3_exp">
+          <p>각각의 사진들에서 배경으로 활용할 수 있는 요소를 가져와<br>
+             전체적인 컬러 톤을 수정한 후 다른 개체와 잘 조화되도록 그림자와 마스크를 사용하여 합성함.
+        </div>
+      </div>
+      <!--<p>모던하고 심플한 분위기를 주기 위해 주조컬러를 베이지로 선정하여
+         디자인. 포인트가 되는 로고나 팝업배너의 경우 명도가 높은 컬러를 사용함.
+      </p>-->
+    </div>
+</div>
+  </section>
+  <section id="sec4">
+    <div class="inner">
+      <h2>
+        <span>Identity</span>
+      </h2>
+      <div class="sec4_btn_box">
+        <a href="#" class="sec4_btn">Artek</a>
+        <div class="sec4_artek_box show">
+          <a href="https://koctwba.github.io/proj2/">
+            <img src="images/identity.jpg" alt="브랜드 아이덴티티 디자인"></a>
+          <div class="sec4_exp_tit">
+              <div class="sec4_exp_l">
+                <p>Artek Identity design</p>
+              </div>
+              <div class="sec4_exp_r">
+                <p>아르텍 아이덴티티 디자인</p>
+              </div>
+              <div class="sec4_exp">
+                <p>아르텍의 로고부터 굿즈,웹사이트까지 디자인을 진행함.<br>
+                   원목 가구를 브랜드의 시그니처로 내세우는만큼 브라운 계열의 컬러를 주조색으로 잡고<br>
+                   아르텍 고유의 심플하면서도 부드러운 디자인을 표현하기 위해<br>
+                   장식적인 느낌의 효과는 배제하고 도형을 활용하여 최대한 간결하게 표현함.</p>
+              </div>
+          </div>
+          <!--<p>모던하고 심플한 분위기를 주기 위해 주조컬러를 베이지로 선정하여
+             디자인. 포인트가 되는 로고나 팝업배너의 경우 명도가 높은 컬러를 사용함.
+          </p>-->
+        </div>
+    </div>
+  </section>
+  <section id="sec5">
+    <div class="inner">
+      <div class="sec5_right">
+        <h3>
+          <span>Contact</span>
+        </h3>
+      </div>
+      <div class="sec5_left">
+        <a href="mailto:koctwba@gmail.com"><p>koctwba@gmail.com</p></a>
+        <a href="sms:01083901901"><p>+82 10 8390 1901</p></a>
+      </div>
+    </div>
+    <div class="sec5_top">
+      <button><p>&#8679;</p></button>
+    </div>
+  </section>
+  <footer id="footer"></footer>
+</div>
+</body>
+</html>
