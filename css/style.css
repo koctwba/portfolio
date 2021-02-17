@@ -127,7 +127,7 @@ button{
 #sec2 .sec2_box{
   border: 1px solid red;
 }
-#sec2 .sec2_exp_tit{
+/*#sec2 .sec2_exp_tit{
   width: 100%;
   margin-bottom: 2rem;
 }
@@ -136,6 +136,7 @@ button{
 }
 #sec2 .sec2_exp_l{
   float: left;
+  width: 50%;
 }
 #sec2 .sec2_exp_l p{
   font-size: 1.5rem; color: #111;
@@ -145,6 +146,38 @@ button{
 #sec2 .sec2_exp_r{
   float: right;
   margin-top: 1rem;
+  width: 50%;
+}
+#sec2 .sec2_exp_r p{
+  font-size: 1.3rem; color: #333;
+  font-weight: 100;
+  float: right;
+}
+#sec2 .sec2_exp{
+  border: 1px solid red;
+  float: right;
+}
+#sec2 .sec2_exp p{
+  font-size: 0.9rem; color: #333;
+  font-weight: 100;
+  text-align: right;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}*/
+#sec2 .sec2_exp_tit{
+  width: 100%;
+  position: relative;
+  margin-top: 1.5rem;
+}
+#sec2 .sec2_exp_l{
+  position: absolute;top: 0;left: 0;
+}
+#sec2 .sec2_exp_l p{
+  font-size: 1.5rem; color: #111;
+  font-weight: 100;
+}
+#sec2 .sec2_exp_r{
+  position: absolute;top: 0;right: 0;
 }
 #sec2 .sec2_exp_r p{
   font-size: 1.3rem; color: #333;
@@ -156,9 +189,10 @@ button{
   text-align: right;
   margin-bottom: 1rem;
   line-height: 1.5rem;
+  position: absolute; top: 3rem; right: 0;
 }
 #sec2 .sec2_star{
-  width: 100%; height: 500px;
+  width: 100%; height: 600px;
   z-index: 9;
 }
 #sec2 .sec2_star_box{
@@ -177,7 +211,7 @@ button{
   margin-top: 1rem;
 }
 #sec2 .sec2_artek{
-  width: 100%; height: 500px;
+  width: 100%; height: 600px;
 }
 #sec2 .sec2_artek_img{
   background:url('../images/artek.jpg')no-repeat center;
@@ -195,7 +229,7 @@ button{
   margin-top: 1rem;
 }
 #sec2 .sec2_letter{
-  width: 100%; height: 500px;
+  width: 100%; height: 600px;
 }
 #sec2 .sec2_letter_img{
   background:url('../images/letterbox_5.jpg') center;
@@ -247,8 +281,9 @@ button{
   margin-right: 5rem;
 }
 #sec3 .sec3_logo_box p{
-  font-size: 1rem;  color: #333;
-  margin-top: 1rem;
+  font-size: 1.5rem;  color: #333;
+  font-weight: 100;
+  margin-top: 2rem;
 }
 #sec3 .sec3_logo_box img:last-child{
   width: 200px;

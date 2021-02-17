@@ -51,6 +51,7 @@ $(function(){
             e.preventDefault(); 
         })
         $(this).click(function(){
+            $('.show').stop().slideUp(1000);
             $(this).find('.show').stop().slideToggle(1200);
         })
     })
