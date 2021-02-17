@@ -290,13 +290,13 @@ button{
 }
 
 #sec3 .sec3_banner_box div{
-  width: 900px;
   margin: 0 auto;
   margin-top:1rem;
 }
 #sec3 .sec3_banner_box div img{
   width: 100%;
 }
+
 #sec3 .sec3_exp_tit{
   width: 100%;
   margin-bottom: 2rem;
@@ -319,6 +319,9 @@ button{
 #sec3 .sec3_exp_r p{
   font-size: 1.3rem; color: #333;
   font-weight: 100;
+}
+#sec3 .sec3_exp{
+  clear: both;
 }
 #sec3 .sec3_exp p{
   font-size: 0.9rem; color: #333;
