@@ -452,7 +452,7 @@ button{
 
 /*********************** sec3_210705 추가 *****************************/
 #sec3 .sec3_web_banner{width: 100%; text-align: center;}
-#sec3 .sec3_film_box > div {
+#sec3 .sec3_web_banner_box > div {
   width: 100%;
   margin: 0 auto;
 }
