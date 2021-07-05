@@ -449,6 +449,18 @@ button{
 #sec3 .sec3_film_three > div{
   margin-bottom: 4rem;
 }
+
+/*********************** sec3_210705 추가 *****************************/
+#sec3 .sec3_web_banner{width: 100%; text-align: center;}
+#sec3 .sec3_web_banner_box div img{
+  width: 70%;text-align: center;margin-top: 5rem;}
+/*#sec3 .sec3_web_banner:after{content: ''; display: block; clear: both;}
+#sec3 .sec3_web_banner_box div img{
+  width:calc(45% - 3rem / 2);margin: 0 auto;text-align: center;}
+#sec3 .sec3_web_banner_box div img:first-child{
+  margin-bottom:5rem;}
+#sec3 .sec3_web_banner_box div img:first-child{float: left;margin-right: 3rem;}
+#sec3 .sec3_web_banner_box div img:last-child{float: right;}*/
 /********************* sec4 ****************************/
 #sec4 .sec4_btn{
   font-size: 3rem; /*color: #4566f5;*/
